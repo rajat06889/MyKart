@@ -169,3 +169,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # To un-block PayPal popups - NB!
 SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
+
+
+print("EMAIL_HOST_USER", EMAIL_HOST_USER)
+print("EMAIL_HOST_PASSWORD", EMAIL_HOST_PASSWORD)
